@@ -1,20 +1,25 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'models/task_data.dart';
-import 'screens/task_screen.dart';
+//import 'package:flutter/widgets.dart';
+import 'package:lottie/lottie.dart';
+import 'package:task_master_app/screens/task_screen.dart';
 
-void main() {
-  runApp(MyApp());
-}
+class SplashScreen extends StatelessWidget {
+  const SplashScreen ({super.key});
 
-class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => TaskData(),
-      child: MaterialApp(
-        home: TaskScreen(),
-      ),
+    return AnimatedSplashScreen(
+      splash: Center(
+            child: Lottie.asset(
+              'assets/Animation-1721638500978.json') 
+            ), 
+            nextScreen: TaskScreen(),
+      duration: 5000,
+      splashIconSize: 5000,
+      backgroundColor: Colors.blue, 
     );
   }
+
 }
