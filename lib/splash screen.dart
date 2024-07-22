@@ -1,57 +1,25 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+//import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+//import 'package:flutter/widgets.dart';
+import 'package:lottie/lottie.dart';
+import 'package:task_master_app/screens/task_screen.dart';
 
-import 'dart:async'; 
-import 'package:flutter/material.dart'; 
-void main() { 
-runApp(MyApp()); 
-} 
+class SplashScreen extends StatelessWidget {
+  const SplashScreen ({super.key});
 
-class MyApp extends StatelessWidget { 
-@override 
-Widget build(BuildContext context) { 
-	return MaterialApp( 
-	title: 'Splash Screen', 
-	theme: ThemeData( 
-		primarySwatch: Colors.green, 
-	), 
-	home: MyHomePage(), 
-	debugShowCheckedModeBanner: false, 
-	); 
-} 
-} 
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedSplashScreen(
+      splash: Center(
+            child: Lottie.asset(
+              'assets/Animation-1721638500978.json') 
+            ), 
+            nextScreen: TaskScreen(),
+      duration: 5000,
+      splashIconSize: 5000,
+      backgroundColor: Colors.blue, 
+    );
+  }
 
-class MyHomePage extends StatefulWidget { 
-@override 
-_MyHomePageState createState() => _MyHomePageState(); 
-} 
-class _MyHomePageState extends State<MyHomePage> { 
-@override 
-void initState() { 
-	super.initState(); 
-	Timer(Duration(seconds: 3), 
-		()=>Navigator.pushReplacement(context, 
-										MaterialPageRoute(builder: 
-														(context) => 
-														SecondScreen() 
-														) 
-									) 
-		); 
-} 
-@override 
-Widget build(BuildContext context) { 
-	return Container( 
-	color: Colors.white, 
-	child:FlutterLogo(size:MediaQuery.of(context).size.height) 
-	); 
-} 
-} 
-class SecondScreen extends StatelessWidget { 
-@override 
-Widget build(BuildContext context) { 
-	return Scaffold( 
-	appBar: AppBar(title:Text("GeeksForGeeks")), 
-	body: Center( 
-		child:Text("Home page",textScaleFactor: 2,) 
-	), 
-	); 
-} 
-} 
+}
