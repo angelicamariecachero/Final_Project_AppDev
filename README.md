@@ -1,4 +1,4 @@
-![mainheader]([https://github.com/angelicamariecachero/Final_Project_AppDev/blob/main/assets/images/logo.jpg.jpg](https://github.com/angelicamariecachero/Final_Project_AppDev/blob/main/assets/images/logo.jpg.jpg)
+![mainheader](https://github.com/angelicamariecachero/Final_Project_AppDev/blob/main/assets/images/logo.jpg.jpg)
 # Final_Project_AppDev
 
 <h2 align="center"> Task Master App: A Personal Management App</h2>
