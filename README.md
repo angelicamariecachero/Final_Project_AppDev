@@ -2,8 +2,7 @@
 # Final_Project_AppDev
 
 <h2 align="center"> Task Master App: A Personal Management App</h2>
-TaskMaster is a mobile application designed to help users manage their tasks and to-do lists efficiently. By providing features such as task categorization, deadline reminders, and progress tracking, the app aims to enhance productivity and organization.
-
+TaskMaster is a mobile application designed to help users manage their tasks and to-do lists efficiently. By giving features such as adding another task that users need to accomplish, notifications remind users that they have tasks to perform, and finished tasks allow users to see or navigate their completed activities.
 <br></br>
 
 Cachero, Angelica Marie D.<br>
