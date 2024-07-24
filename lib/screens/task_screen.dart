@@ -3,12 +3,44 @@ import 'package:provider/provider.dart';
 import 'task_list.dart';
 import 'add_task_screen.dart';
 import '../models/task_data.dart';
+import 'completed_tasks_screen.dart';  // Ensure you import the completed tasks screen
+import 'deleted_tasks_screen.dart';    // Ensure you import the deleted tasks screen
 
 class TaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.lightBlueAccent,
+      appBar: AppBar(
+        backgroundColor: Colors.lightBlueAccent,
+        elevation: 0.0,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.check),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CompletedTasksScreen(
+                    tasks: Provider.of<TaskData>(context, listen: false).completedTasks,
+                  ),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.delete_forever),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DeletedTasksScreen(),
+                ),
+              );
+            },
+          ),
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.lightBlueAccent,
         child: Icon(Icons.add),
@@ -40,7 +72,7 @@ class TaskScreen extends StatelessWidget {
                   height: 10.0,
                 ),
                 Text(
-                  'Task Manager',
+                  'Task Master',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 50.0,
