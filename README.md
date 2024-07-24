@@ -9,4 +9,4 @@ Cachero, Angelica Marie D.<br>
 Mancilla, Jasmine Joyce V.<br>
 Samson, Karlo Renz V.<br>
 BSIT-BA 3307
-![image](https://github.com/user-attachments/assets/e8bb5a55-2af4-4da5-9942-37df4850da09)
+![image](https://github.com/user-attachments/assets/aa159db2-3a5f-4c49-92bd-a5f5810da68b)
