@@ -11,6 +11,7 @@ Samson, Karlo Renz V.<br>
 BSIT-BA 3307
 
 Functionalities of Task Master:
+
 Add task
 See the finished task
 Delete task
