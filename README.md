@@ -16,7 +16,7 @@
 
  <h3> Purpose and Description </h3> <i class="fa-solid fa-1"></i>
  
-<p align=justify> &nbsp;&nbsp;&nbsp;&nbsp;The purpose of TaskMaster is to provide users with an intuitive and effective tool for managing their daily tasks and achieving their goals. The app will help users prioritize their tasks, set deadlines, and track their progress, ultimately leading to better time management and productivity.
+<p align=justify> &nbsp;&nbsp;&nbsp;&nbsp;The purpose of TaskMaster is to provide users with an intuitive and effective tool for managing their daily tasks and achieving their goals. The app will help users prioritize their tasks, and track their progress, ultimately leading to better time management and productivity.
 
  <h3> Functionalities of Task Master: </h3> <i class="fa-solid fa-1"></i>
 
