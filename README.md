@@ -24,10 +24,17 @@ Add Task, See the finished Task, and Delete Task
 
 ![452028883_1001829158160858_2675448707730968303_n](https://github.com/user-attachments/assets/ec123117-2b4d-4bb8-b41c-6bae46b33c0d)
 
+##  <a id = "contrib"> 👷‍ Contributors </a> <br>
 
-Submitted by:<br>
-Cachero, Angelica Marie D.<br>
-Mancilla, Jasmine Joyce V.<br>
-Samson, Karlo Renz V.<br>
-BSIT-BA 3307
+| Name | Role | E-mail | Other Contacts |
+| --- | --- | --- | --- |
+| <a href = "https://github.com/angelicamariecachero">Angelica Marie D. Cachero</a> | Developer | angelicamariecachero@gmail.com |   |
+| <a href = "https://github.com/jasmancilla">Jasmine Joyce V. Mancilla </a>|  Developer  | jasmancilla13@gmail.com |  |
+| <a href = "https://github.com/Rentzu">Karlo Renz V. Samson </a>| Developer | karlorenzvsam@gmail.com | |
 
+<br>
+
+- Course:
+  - IT 331 (Application Development and Emerging Technologies)
+- Course Facilitator:
+  - Fatima Marie Agdon
