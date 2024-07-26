@@ -3,7 +3,7 @@
 
 <h3> Introduction </h3> <i class="fa-solid fa-1"></i>
   <p align=justify>
-&nbsp;&nbsp;&nbsp;&nbsp; TaskMaster is a mobile application designed to help users manage their tasks and to-do lists efficiently. By giving features such as adding another task that users need to accomplish, notifications remind users that they have tasks to perform, and finished tasks allow users to see or navigate their completed activities.
+&nbsp;&nbsp;&nbsp;&nbsp; TaskMaster is a mobile application designed to help users manage their tasks and to-do lists efficiently. By giving features such as adding another task that users need to accomplish, and finished tasks allow users to see or navigate their completed activities and deleted tasks.
 <br></br>
 
 <h3> SDG </h3> <i class="fa-solid fa-1"></i>
